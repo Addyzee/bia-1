@@ -1,0 +1,7 @@
+store_id,store_address,city_id
+s_1,"123 Moi Avenue, Nairobi",ct_1
+s_2,"456 Kenyatta Avenue, Nairobi",ct_1
+s_3,"789 Oginga Odinga Street, Nakuru",ct_2
+s_4,"101 Beach Road, Mombasa",ct_3
+s_5,"202 Makasembo Road, Kisumu",ct_4
+s_6,"303 Kenyatta Avenue, Nakuru",ct_2

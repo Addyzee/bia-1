@@ -1,0 +1,4 @@
+[
+  { "sales_type_id": "s_1", "sales_type_name": "Cash" },
+  { "sales_type_id": "s_2", "sales_type_name": "Credit" }
+]

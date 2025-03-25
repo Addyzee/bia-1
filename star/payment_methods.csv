@@ -1,0 +1,5 @@
+payment_method_id,payment_method_name
+pm_1,Cash Money
+pm_2,M-Pesa
+pm_3,Airtel Money
+pm_4,Bank Transfer

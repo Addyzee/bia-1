@@ -1,0 +1,7 @@
+store_id,store_address,city_name,region_name,country_name
+s_1,"123 Moi Avenue, Nairobi",Nairobi,Nairobi Region,Kenya
+s_2,"456 Kenyatta Avenue, Nairobi",Nairobi,Nairobi Region,Kenya
+s_3,"789 Oginga Odinga Street, Nakuru",Nakuru,Rift Valley,Kenya
+s_4,"101 Beach Road, Mombasa",Mombasa,Coastal Region,Kenya
+s_5,"202 Makasembo Road, Kisumu",Kisumu,Western Region,Kenya
+s_6,"303 Kenyatta Avenue, Nakuru",Nakuru,Rift Valley,Kenya

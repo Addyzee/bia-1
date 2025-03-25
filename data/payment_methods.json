@@ -1,0 +1,6 @@
+[
+  { "payment_method_id": "pm_1", "payment_method_name": "Cash Money" },
+  { "payment_method_id": "pm_2", "payment_method_name": "M-Pesa" },
+  { "payment_method_id": "pm_3", "payment_method_name": "Airtel Money" },
+  { "payment_method_id": "pm_4", "payment_method_name": "Bank Transfer" }
+]

@@ -1,0 +1,31 @@
+product_id,product_name,product_type,price
+p_1,Maize flour,Food,220
+p_2,Wheat flour,Food,180
+p_3,Sugar,Food,200
+p_4,Rice,Food,250
+p_5,Cooking oil,Food,300
+p_6,Salt,Food,30
+p_7,Tea leaves,Beverage,120
+p_8,Instant coffee,Beverage,300
+p_9,Smocha,Food,60
+p_10,Baking powder,Baking,50
+p_11,Bar soap,Household,80
+p_12,Washing powder,Household,150
+p_13,Bathing soap,Personal Care,90
+p_14,Toothpaste,Personal Care,150
+p_15,Tissue paper,Household,120
+p_16,Matchboxes,Household,20
+p_17,Candles,Household,50
+p_18,Milk (long life),Dairy,180
+p_19,Bread,Bakery,80
+p_20,Eggs,Dairy,20
+p_21,Soft drinks (soda),Beverage,60
+p_22,Bottled water,Beverage,50
+p_23,Biscuits,Snack,40
+p_24,Sweets,Snack,10
+p_25,Cooking gas,Energy,1500
+p_26,Charcoal,Energy,800
+p_27,Onions,Fresh Produce,30
+p_28,Tomatoes,Fresh Produce,40
+p_29,Detergent,Household,250
+p_30,Blue Band margarine,Spread,200

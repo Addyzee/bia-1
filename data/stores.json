@@ -1,0 +1,63 @@
+[
+  {
+    "store_id": "s_1",
+    "store_address": "123 Moi Avenue, Nairobi",
+    "city_id": "ct_1",
+    "city_name": "Nairobi",
+    "region_name": "Nairobi Region",
+    "region_id": "r_1",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  },
+  {
+    "store_id": "s_2",
+    "store_address": "456 Kenyatta Avenue, Nairobi",
+    "city_id": "ct_1",
+    "city_name": "Nairobi",
+    "region_name": "Nairobi Region",
+    "region_id": "r_1",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  },
+  {
+    "store_id": "s_3",
+    "store_address": "789 Oginga Odinga Street, Nakuru",
+    "city_id": "ct_2",
+    "region_id": "r_2",
+    "city_name": "Nakuru",
+    "region_name": "Rift Valley",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  },
+  {
+    "store_id": "s_4",
+    "store_address": "101 Beach Road, Mombasa",
+    "city_id": "ct_3",
+    "city_name": "Mombasa",
+    "region_name": "Coastal Region",
+    "region_id": "r_3",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+
+  },
+  {
+    "store_id": "s_5",
+    "store_address": "202 Makasembo Road, Kisumu",
+    "city_id": "ct_4",
+    "city_name": "Kisumu",
+    "region_name": "Western Region",
+    "region_id": "r_4",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  },
+  {
+    "store_id": "s_6",
+    "store_address": "303 Kenyatta Avenue, Nakuru",
+    "city_id": "ct_2",
+    "region_id": "r_2",
+    "city_name": "Nakuru",
+    "region_name": "Rift Valley",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  }
+]

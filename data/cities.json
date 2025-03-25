@@ -1,0 +1,34 @@
+[
+  {
+    "city_id": "ct_1",
+    "city_name": "Nairobi",
+    "region_id": "r_1",
+    "region_name": "Nairobi Region",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  },
+  {
+    "city_id": "ct_2",
+    "city_name": "Nakuru",
+    "region_id": "r_2",
+    "region_name": "Rift Valley",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  },
+  {
+    "city_id": "ct_3",
+    "city_name": "Mombasa",
+    "region_id": "r_3",
+    "region_name": "Coastal Region",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  },
+  {
+    "city_id": "ct_4",
+    "city_name": "Kisumu",
+    "region_id": "r_4",
+    "region_name": "Western Region",
+    "country_id": "c_1",
+    "country_name": "Kenya"
+  }
+]

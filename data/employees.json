@@ -1,0 +1,242 @@
+[
+  {
+    "employee_id": "e_1",
+    "first_name": "James",
+    "last_name": "Mwangi",
+    "dob": "1990-05-14"
+  },
+  {
+    "employee_id": "e_2",
+    "first_name": "Mary",
+    "last_name": "Wanjiku",
+    "dob": "1988-09-23"
+  },
+  {
+    "employee_id": "e_3",
+    "first_name": "John",
+    "last_name": "Odhiambo",
+    "dob": "1995-03-11"
+  },
+  {
+    "employee_id": "e_4",
+    "first_name": "Grace",
+    "last_name": "Atieno",
+    "dob": "1992-12-02"
+  },
+  {
+    "employee_id": "e_5",
+    "first_name": "Peter",
+    "last_name": "Kamau",
+    "dob": "1987-06-18"
+  },
+  {
+    "employee_id": "e_6",
+    "first_name": "Elizabeth",
+    "last_name": "Achieng",
+    "dob": "1996-07-29"
+  },
+  {
+    "employee_id": "e_7",
+    "first_name": "Samuel",
+    "last_name": "Kariuki",
+    "dob": "1985-01-05"
+  },
+  {
+    "employee_id": "e_8",
+    "first_name": "Lucy",
+    "last_name": "Nyambura",
+    "dob": "1993-04-17"
+  },
+  {
+    "employee_id": "e_9",
+    "first_name": "Daniel",
+    "last_name": "Mbugua",
+    "dob": "1991-08-10"
+  },
+  {
+    "employee_id": "e_10",
+    "first_name": "Cynthia",
+    "last_name": "Njeri",
+    "dob": "1994-10-22"
+  },
+  {
+    "employee_id": "e_11",
+    "first_name": "Joseph",
+    "last_name": "Mutua",
+    "dob": "1989-11-30"
+  },
+  {
+    "employee_id": "e_12",
+    "first_name": "Margaret",
+    "last_name": "Wangari",
+    "dob": "1997-02-14"
+  },
+  {
+    "employee_id": "e_13",
+    "first_name": "David",
+    "last_name": "Otieno",
+    "dob": "1986-05-08"
+  },
+  {
+    "employee_id": "e_14",
+    "first_name": "Ann",
+    "last_name": "Nduta",
+    "dob": "1990-07-19"
+  },
+  {
+    "employee_id": "e_15",
+    "first_name": "Francis",
+    "last_name": "Kimani",
+    "dob": "1984-09-25"
+  },
+  {
+    "employee_id": "e_16",
+    "first_name": "Diana",
+    "last_name": "Muthoni",
+    "dob": "1998-06-30"
+  },
+  {
+    "employee_id": "e_17",
+    "first_name": "Paul",
+    "last_name": "Mwangi",
+    "dob": "1992-03-16"
+  },
+  {
+    "employee_id": "e_18",
+    "first_name": "Agnes",
+    "last_name": "Njoki",
+    "dob": "1983-12-07"
+  },
+  {
+    "employee_id": "e_19",
+    "first_name": "George",
+    "last_name": "Wainaina",
+    "dob": "1996-11-20"
+  },
+  {
+    "employee_id": "e_20",
+    "first_name": "Sarah",
+    "last_name": "Kendi",
+    "dob": "1988-01-09"
+  },
+  {
+    "employee_id": "e_21",
+    "first_name": "Anthony",
+    "last_name": "Omondi",
+    "dob": "1993-08-12"
+  },
+  {
+    "employee_id": "e_22",
+    "first_name": "Rebecca",
+    "last_name": "Koech",
+    "dob": "1985-04-26"
+  },
+  {
+    "employee_id": "e_23",
+    "first_name": "Steve",
+    "last_name": "Ndungu",
+    "dob": "1997-09-01"
+  },
+  {
+    "employee_id": "e_24",
+    "first_name": "Esther",
+    "last_name": "Chebet",
+    "dob": "1989-07-15"
+  },
+  {
+    "employee_id": "e_25",
+    "first_name": "Benard",
+    "last_name": "Kiprop",
+    "dob": "1986-10-05"
+  },
+  {
+    "employee_id": "e_26",
+    "first_name": "Monica",
+    "last_name": "Wairimu",
+    "dob": "1994-06-21"
+  },
+  {
+    "employee_id": "e_27",
+    "first_name": "Nicholas",
+    "last_name": "Mutisya",
+    "dob": "1991-02-13"
+  },
+  {
+    "employee_id": "e_28",
+    "first_name": "Caroline",
+    "last_name": "Mburu",
+    "dob": "1998-05-31"
+  },
+  {
+    "employee_id": "e_29",
+    "first_name": "Patrick",
+    "last_name": "Ochieng",
+    "dob": "1987-12-19"
+  },
+  {
+    "employee_id": "e_30",
+    "first_name": "Alice",
+    "last_name": "Ndunge",
+    "dob": "1995-09-23"
+  },
+  {
+    "employee_id": "e_31",
+    "first_name": "Michael",
+    "last_name": "Otieno",
+    "dob": "1990-11-14"
+  },
+  {
+    "employee_id": "e_32",
+    "first_name": "Dorothy",
+    "last_name": "Kavata",
+    "dob": "1984-07-08"
+  },
+  {
+    "employee_id": "e_33",
+    "first_name": "Brian",
+    "last_name": "Macharia",
+    "dob": "1993-03-29"
+  },
+  {
+    "employee_id": "e_34",
+    "first_name": "Naomi",
+    "last_name": "Mwaniki",
+    "dob": "1985-06-02"
+  },
+  {
+    "employee_id": "e_35",
+    "first_name": "Felix",
+    "last_name": "Njenga",
+    "dob": "1996-01-25"
+  },
+  {
+    "employee_id": "e_36",
+    "first_name": "Irene",
+    "last_name": "Kariuki",
+    "dob": "1989-08-18"
+  },
+  {
+    "employee_id": "e_37",
+    "first_name": "Kevin",
+    "last_name": "Nyakundi",
+    "dob": "1992-04-12"
+  },
+  {
+    "employee_id": "e_38",
+    "first_name": "Sylvia",
+    "last_name": "Mose",
+    "dob": "1997-07-27"
+  },
+  {
+    "employee_id": "e_39",
+    "first_name": "Joshua",
+    "last_name": "Kiprono",
+    "dob": "1983-10-30"
+  },
+  {
+    "employee_id": "e_40",
+    "first_name": "Janet",
+    "last_name": "Mutisya",
+    "dob": "1994-12-09"
+  }
+]

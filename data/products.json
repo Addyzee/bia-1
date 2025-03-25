@@ -1,0 +1,242 @@
+[
+  {
+    "product_id": "p_1",
+    "product_name": "Maize flour",
+    "product_type": "Food",
+    "product_type_id": 1,
+    "sales": 150,
+    "price": 220
+  },
+  {
+    "product_id": "p_2",
+    "product_name": "Wheat flour",
+    "product_type": "Food",
+    "product_type_id": 1,
+    "sales": 83,
+    "price": 180
+  },
+  {
+    "product_id": "p_3",
+    "product_name": "Sugar",
+    "product_type": "Food",
+    "product_type_id": 1,
+    "sales": 100,
+    "price": 200
+  },
+  {
+    "product_id": "p_4",
+    "product_name": "Rice",
+    "product_type": "Food",
+    "product_type_id": 1,
+    "sales": 100,
+    "price": 250
+  },
+  {
+    "product_id": "p_5",
+    "product_name": "Cooking oil",
+    "product_type": "Food",
+    "product_type_id": 1,
+    "sales": 90,
+    "price": 300
+  },
+  {
+    "product_id": "p_6",
+    "product_name": "Salt",
+    "product_type": "Food",
+    "product_type_id": 1,
+    "sales": 60,
+    "price": 30
+  },
+  {
+    "product_id": "p_7",
+    "product_name": "Tea leaves",
+    "product_type": "Beverage",
+    "product_type_id": 2,
+    "sales": 70,
+    "price": 120
+  },
+  {
+    "product_id": "p_8",
+    "product_name": "Instant coffee",
+    "product_type": "Beverage",
+    "product_type_id": 2,
+    "sales": 10,
+    "price": 300
+  },
+  {
+    "product_id": "p_9",
+    "product_name": "Smocha",
+    "product_type": "Food",
+    "product_type_id": 1,
+    "sales": 80,
+    "price": 60
+  },
+  {
+    "product_id": "p_10",
+    "product_name": "Baking powder",
+    "product_type": "Baking",
+    "product_type_id": 3,
+    "sales": 10,
+    "price": 50
+  },
+  {
+    "product_id": "p_11",
+    "product_name": "Bar soap",
+    "product_type": "Household",
+    "product_type_id": 4,
+    "sales": 15,
+    "price": 80
+  },
+  {
+    "product_id": "p_12",
+    "product_name": "Washing powder",
+    "product_type": "Household",
+    "product_type_id": 4,
+    "sales": 15,
+    "price": 150
+  },
+  {
+    "product_id": "p_13",
+    "product_name": "Bathing soap",
+    "product_type": "Personal Care",
+    "product_type_id": 5,
+    "sales": 20,
+    "price": 90
+  },
+  {
+    "product_id": "p_14",
+    "product_name": "Toothpaste",
+    "product_type": "Personal Care",
+    "product_type_id": 5,
+    "sales": 20,
+    "price": 150
+  },
+  {
+    "product_id": "p_15",
+    "product_name": "Tissue paper",
+    "product_type": "Household",
+    "product_type_id": 4,
+    "sales": 55,
+    "price": 120
+  },
+  {
+    "product_id": "p_16",
+    "product_name": "Matchboxes",
+    "product_type": "Household",
+    "product_type_id": 4,
+    "sales": 10,
+    "price": 20
+  },
+  {
+    "product_id": "p_17",
+    "product_name": "Candles",
+    "product_type": "Household",
+    "product_type_id": 4,
+    "sales": 15,
+    "price": 50
+  },
+  {
+    "product_id": "p_18",
+    "product_name": "Milk (long life)",
+    "product_type": "Dairy",
+    "product_type_id": 6,
+    "sales": 100,
+    "price": 180
+  },
+  {
+    "product_id": "p_19",
+    "product_name": "Bread",
+    "product_type": "Bakery",
+    "product_type_id": 7,
+    "sales": 90,
+    "price": 80
+  },
+  {
+    "product_id": "p_20",
+    "product_name": "Eggs",
+    "product_type": "Dairy",
+    "product_type_id": 6,
+    "sales": 85,
+    "price": 20
+  },
+  {
+    "product_id": "p_21",
+    "product_name": "Soft drinks (soda)",
+    "product_type": "Beverage",
+    "product_type_id": 2,
+    "sales": 45,
+    "price": 60
+  },
+  {
+    "product_id": "p_22",
+    "product_name": "Bottled water",
+    "product_type": "Beverage",
+    "product_type_id": 2,
+    "sales": 20,
+    "price": 50
+  },
+  {
+    "product_id": "p_23",
+    "product_name": "Biscuits",
+    "product_type": "Snack",
+    "product_type_id": 8,
+    "sales": 10,
+    "price": 40
+  },
+  {
+    "product_id": "p_24",
+    "product_name": "Sweets",
+    "product_type": "Snack",
+    "product_type_id": 8,
+    "sales": 5,
+    "price": 10
+  },
+  {
+    "product_id": "p_25",
+    "product_name": "Cooking gas",
+    "product_type": "Energy",
+    "product_type_id": 9,
+    "sales": 20,
+    "price": 1500
+  },
+  {
+    "product_id": "p_26",
+    "product_name": "Charcoal",
+    "product_type": "Energy",
+    "product_type_id": 9,
+    "sales": 30,
+    "price": 800
+  },
+  {
+    "product_id": "p_27",
+    "product_name": "Onions",
+    "product_type": "Fresh Produce",
+    "product_type_id": 10,
+    "sales": 15,
+    "price": 30
+  },
+  {
+    "product_id": "p_28",
+    "product_name": "Tomatoes",
+    "product_type": "Fresh Produce",
+    "product_type_id": 10,
+    "sales": 20,
+    "price": 40
+  },
+  {
+    "product_id": "p_29",
+    "product_name": "Detergent",
+    "product_type": "Household",
+    "product_type_id": 4,
+    "sales": 65,
+    "price": 250
+  },
+  {
+    "product_id": "p_30",
+    "product_name": "Blue Band margarine",
+    "product_type": "Spread",
+    "product_type_id": 11,
+    "sales": 15,
+    "price": 200
+  }
+]

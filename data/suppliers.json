@@ -1,0 +1,52 @@
+[
+  {
+    "supplier_id": "sup_1",
+    "supplier_name": "Jumia Wholesale",
+    "city_id": "ct_3"
+  },
+  {
+    "supplier_id": "sup_2",
+    "supplier_name": "Bidco Distributors",
+    "city_id": "ct_2"
+  },
+  {
+    "supplier_id": "sup_3",
+    "supplier_name": "Mumias Sugar Suppliers",
+    "city_id": "ct_4"
+  },
+  {
+    "supplier_id": "sup_4",
+    "supplier_name": "Brookside Dairy Ltd",
+    "city_id": "ct_2"
+  },
+  {
+    "supplier_id": "sup_5",
+    "supplier_name": "Pembe Flour Mills",
+    "city_id": "ct_1"
+  },
+  {
+    "supplier_id": "sup_6",
+    "supplier_name": "Unga Limited",
+    "city_id": "ct_1"
+  },
+  {
+    "supplier_id": "sup_7",
+    "supplier_name": "KTDA Tea Suppliers",
+    "city_id": "ct_2"
+  },
+  {
+    "supplier_id": "sup_8",
+    "supplier_name": "Kenafric Bakery Supplies",
+    "city_id": "ct_1"
+  },
+  {
+    "supplier_id": "sup_9",
+    "supplier_name": "Coca-Cola Distributors",
+    "city_id": "ct_3"
+  },
+  {
+    "supplier_id": "sup_10",
+    "supplier_name": "Trufoods Ltd",
+    "city_id": "ct_1"
+  }
+]
