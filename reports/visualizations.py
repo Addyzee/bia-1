@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Style and color palette
-plt.style.use('seaborn-v0_8-pastel')
+plt.style.use("seaborn-v0_8-pastel")
 sns.set_palette("deep")
 
 # Connection
 conn = psycopg2.connect("dbname=bia_sales user=postgres host=localhost port=5432")
+
 
 # 1. Best Selling Products
 def plot_best_selling_products(conn):
@@ -20,22 +21,24 @@ def plot_best_selling_products(conn):
     ORDER BY total_sold DESC
     """
     df = pd.read_sql(query, conn)
-    
+
     plt.figure(figsize=(14, 7))
-    ax = sns.barplot(x="product_name", y="total_sold", data=df, 
-                     edgecolor='black', linewidth=1)
-    plt.title("Best Selling Products", fontsize=16, fontweight='bold')
+    ax = sns.barplot(
+        x="product_name", y="total_sold", data=df, edgecolor="black", linewidth=1
+    )
+    plt.title("Best Selling Products", fontsize=16, fontweight="bold")
     plt.xlabel("Product Name", fontsize=12)
     plt.ylabel("Total Quantity Sold", fontsize=12)
-    plt.xticks(rotation=45, ha='right')
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
-    
+    plt.xticks(rotation=45, ha="right")
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+
     # Add value labels on top of each bar
-    for i, v in enumerate(df['total_sold']):
-        ax.text(i, v, str(int(v)), ha='center', va='bottom', fontweight='bold')
-    
+    for i, v in enumerate(df["total_sold"]):
+        ax.text(i, v, str(int(v)), ha="center", va="bottom", fontweight="bold")
+
     plt.tight_layout()
     plt.show()
+
 
 # 2. Sales per Store
 def plot_sales_per_store(conn):
@@ -50,22 +53,24 @@ def plot_sales_per_store(conn):
     ORDER BY total_amount DESC
     """
     df = pd.read_sql(query, conn)
-    
+
     plt.figure(figsize=(14, 7))
-    ax = sns.barplot(x="store_address", y="total_amount", data=df, 
-                     edgecolor='black', linewidth=1)
-    plt.title("Total Sales by Store Location", fontsize=16, fontweight='bold')
+    ax = sns.barplot(
+        x="store_address", y="total_amount", data=df, edgecolor="black", linewidth=1
+    )
+    plt.title("Total Sales by Store Location", fontsize=16, fontweight="bold")
     plt.xlabel("Store Address", fontsize=12)
     plt.ylabel("Total Sales Amount (Ksh)", fontsize=12)
-    plt.xticks(rotation=45, ha='right')
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
-    
+    plt.xticks(rotation=45, ha="right")
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+
     # labels on top of each bar
-    for i, v in enumerate(df['total_amount']):
-        ax.text(i, v, f'Ksh {v:,.0f}', ha='center', va='bottom', fontweight='bold')
-    
+    for i, v in enumerate(df["total_amount"]):
+        ax.text(i, v, f"Ksh {v:,.0f}", ha="center", va="bottom", fontweight="bold")
+
     plt.tight_layout()
     plt.show()
+
 
 # 3. Total Revenue by Product
 def plot_revenue_by_product(conn):
@@ -79,23 +84,32 @@ def plot_revenue_by_product(conn):
     ORDER BY total_revenue DESC
     """
     df = pd.read_sql(query, conn)
-    
+
     plt.figure(figsize=(14, 7))
-    ax = sns.barplot(x="product_name", y="total_revenue", data=df, 
-                     edgecolor='black', linewidth=1)
-    plt.title("Total Revenue by Product", fontsize=16, fontweight='bold')
+    ax = sns.barplot(
+        x="product_name", y="total_revenue", data=df, edgecolor="black", linewidth=1
+    )
+    plt.title("Total Revenue by Product", fontsize=16, fontweight="bold")
     plt.xlabel("Product Name", fontsize=12)
     plt.ylabel("Total Revenue (Ksh)", fontsize=12)
-    plt.xticks(rotation=45, ha='right')
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
-    
+    plt.xticks(rotation=45, ha="right")
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+
     # labels on top of each bar
-    for i, v in enumerate(df['total_revenue']):
-        ax.text(i, v, f'Ksh {v:,.0f}', ha='left', va='bottom', fontweight='bold', rotation=45)
-        
-    
+    for i, v in enumerate(df["total_revenue"]):
+        ax.text(
+            i,
+            v,
+            f"Ksh {v:,.0f}",
+            ha="left",
+            va="bottom",
+            fontweight="bold",
+            rotation=45,
+        )
+
     plt.tight_layout()
     plt.show()
+
 
 # 4. Best Selling Product in Each Store
 def plot_best_selling_product_by_store(conn):
@@ -123,19 +137,26 @@ def plot_best_selling_product_by_store(conn):
     ORDER BY total_quantity DESC
     """
     df = pd.read_sql(query, conn)
-    
+
     plt.figure(figsize=(14, 7))
-    ax = sns.barplot(x="store_address", y="total_quantity", hue="product_name", data=df, 
-                     edgecolor='black', linewidth=1)
-    plt.title("Best Selling Product in Each Store", fontsize=16, fontweight='bold')
+    ax = sns.barplot(
+        x="store_address",
+        y="total_quantity",
+        hue="product_name",
+        data=df,
+        edgecolor="black",
+        linewidth=1,
+    )
+    plt.title("Best Selling Product in Each Store", fontsize=16, fontweight="bold")
     plt.xlabel("Store Address", fontsize=12)
     plt.ylabel("Total Quantity Sold", fontsize=12)
-    plt.xticks(rotation=45, ha='right')
+    plt.xticks(rotation=45, ha="right")
     plt.legend(title="Product Name", bbox_to_anchor=(1.05, 1), loc="upper left")
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
-    
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+
     plt.tight_layout()
     plt.show()
+
 
 # 5. Total Sales Revenue per Supplier
 def plot_revenue_by_supplier(conn):
@@ -150,27 +171,80 @@ def plot_revenue_by_supplier(conn):
     ORDER BY total_worth DESC
     """
     df = pd.read_sql(query, conn)
-    
+
     plt.figure(figsize=(14, 7))
-    ax = sns.barplot(x="supplier_name", y="total_worth", data=df, 
-                     edgecolor='black', linewidth=1)
-    plt.title("Total Revenue from Each Supplier", fontsize=16, fontweight='bold')
+    ax = sns.barplot(
+        x="supplier_name", y="total_worth", data=df, edgecolor="black", linewidth=1
+    )
+    plt.title("Total Revenue from Each Supplier", fontsize=16, fontweight="bold")
     plt.xlabel("Supplier Name", fontsize=12)
     plt.ylabel("Total Revenue (Ksh)", fontsize=12)
-    plt.xticks(rotation=45, ha='right')
-    plt.grid(axis='y', linestyle='--', alpha=0.7)
-    
+    plt.xticks(rotation=45, ha="right")
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+
     # labels on top of each bar
-    for i, v in enumerate(df['total_worth']):
-        ax.text(i, v, f'Ksh {v:,.0f}', ha='center', va='bottom', fontweight='bold')
-    
+    for i, v in enumerate(df["total_worth"]):
+        ax.text(i, v, f"Ksh {v:,.0f}", ha="center", va="bottom", fontweight="bold")
+
     plt.tight_layout()
     plt.show()
 
+
+def plot_payment_methods_used(conn):
+    query = """
+    SELECT p.payment_method_name,
+    COUNT(s.payment_method_id) as transaction_count,
+    SUM(pr.price * s.quantity) as amount
+
+    FROM galaxy.sales s 
+    JOIN galaxy.payment_methods p ON p.payment_method_id = s.payment_method_id 
+    JOIN galaxy.products pr ON pr.product_id = s.product_id
+    GROUP BY p.payment_method_name
+    ORDER BY amount desc;
+    """
+    df = pd.read_sql(query, conn)
+    
+    plt.style.use('seaborn-v0_8-pastel')
+    plt.figure(figsize=(15, 8))
+    
+    _, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 8))
+    
+    colors = sns.color_palette("deep", len(df))
+    
+    sns.barplot(x='payment_method_name', y='amount', data=df, 
+                ax=ax1, palette=colors, edgecolor='black', linewidth=1)
+    ax1.set_title('Total Sales Amount by Payment Method', fontsize=14, fontweight='bold')
+    ax1.set_xlabel('Payment Method', fontsize=12)
+    ax1.set_ylabel('Total Sales Amount (Ksh )', fontsize=12)
+    ax1.tick_params(axis='x', rotation=45)
+    
+    for i, v in enumerate(df['amount']):
+        ax1.text(i, v, f'Ksh {v:,.0f}', ha='center', va='bottom', fontweight='bold')
+    
+    ax2.pie(df['transaction_count'], 
+            labels=[f'{name}\n{count}' for name, count in 
+                    zip(df['payment_method_name'], 
+                        df['transaction_count'])],
+            autopct='%1.1f%%',
+            colors=colors,
+            wedgeprops={'edgecolor': 'white', 'linewidth': 1},
+            textprops={'fontsize': 9})
+    ax2.set_title('Payment Method Usage Distribution', fontsize=14, fontweight='bold')
+    
+    plt.suptitle('Payment Methods Analysis', fontsize=16, fontweight='bold')
+    plt.tight_layout()
+    
+    # Show the plot
+    plt.show()
+    
+    
+
+
 # plot_best_selling_products(conn)
 # plot_sales_per_store(conn)
-plot_revenue_by_product(conn)
+# plot_revenue_by_product(conn)
 # plot_best_selling_product_by_store(conn)
 # plot_revenue_by_supplier(conn)
+plot_payment_methods_used(conn)
 
 conn.close()

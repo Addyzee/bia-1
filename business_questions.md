@@ -76,3 +76,16 @@ GROUP BY sup.supplier_name
 ORDER BY total_worth DESC;
 
 ```
+
+6. Payment methods
+```sql
+SELECT p.payment_method_name,
+COUNT(s.payment_method_id),
+SUM(pr.price * s.quantity) as amount
+
+FROM galaxy.sales s 
+JOIN galaxy.payment_methods p ON p.payment_method_id = s.payment_method_id 
+JOIN galaxy.products pr ON pr.product_id = s.product_id
+GROUP BY p.payment_method_name
+ORDER BY amount desc;
+```
